@@ -1,0 +1,41 @@
+def tx_origin():
+	return( tx.origin )
+def tx_gasprice():
+	return( tx.gasprice )
+
+
+def msg_gas():
+	return( msg.gas )
+
+def msg_value():
+	return( msg.value )
+
+def msg_sender():
+	return( msg.sender )
+
+
+def self():
+	return( self )
+
+def self_balance():
+	return( self.balance )
+
+
+def block_coinbase():
+	return( block.coinbase )
+
+def block_number():
+	return( block.number )
+
+def block_timestamp():
+	return( block.timestamp )
+
+def block_prevhash():
+	return( block.prevhash )
+
+def block_difficulty():
+	return( block.difficulty )
+
+def block_gaslimit():
+	return( block.gaslimit )
+

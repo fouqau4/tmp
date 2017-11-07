@@ -1,0 +1,5 @@
+def get(key):
+	if not self.storage[key]:
+		return(-1)
+	else:
+		return(self.storage[key])

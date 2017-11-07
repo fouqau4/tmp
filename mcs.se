@@ -1,0 +1,11 @@
+def transfer( amount, dest ):
+	if self.storage[msg.sender] - amount < -1000 :
+		return(-1)
+	else :
+		self.storage[msg.sender] -= amount
+		self.storage[dest] += amount
+		return(0)
+
+def balance( ):
+	return( self.storage[msg.sender] )
+

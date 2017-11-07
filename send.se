@@ -1,0 +1,5 @@
+def s( amount, dest ):
+	send( dest, amount )
+
+def s1( amount, dest, gs ):
+	send( gs, dest, amount )

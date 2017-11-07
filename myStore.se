@@ -1,0 +1,5 @@
+#extern register.se: [register:[int256,int256]:int256]
+#extern get.se: [get:[int256]:int256]
+
+inset('register.se')
+inset('get.se')

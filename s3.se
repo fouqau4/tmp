@@ -1,0 +1,4 @@
+def s3_2( a, b ):
+	return(sha3([a,b],items=2))
+def s3_1( a ):
+	return(sha3(a))
